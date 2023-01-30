@@ -1,0 +1,22 @@
+.wrapper {
+  width: 400px;
+  height: 400px;
+}
+.coffee-machine {
+  display: none;
+  width: 400px;
+  height: 400px;
+  background: center / contain no-repeat url("./img/coffee-machine.jpg");
+}
+.coffeeType-espresso {
+  background: center / contain no-repeat url("./img/espresso.jpg");
+}
+.coffeeType-cappuccino {
+  background: center / contain no-repeat url("./img/cappuccino.jpg");
+}
+.is-on {
+  display: block;
+}
+.on {
+  background-color: red;
+}
